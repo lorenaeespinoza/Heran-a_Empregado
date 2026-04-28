@@ -15,4 +15,13 @@ public class EmpregadoComissado extends Empregado {
         return totalVendas * comissao / 100;
     }
 
+    @Override
+    public String toString() {
+        return "EmpregadoComissado{" +
+                "totalVendas=" + totalVendas +
+                ", comissao=" + comissao +
+                ", matricula=" + matricula +
+                ", nome='" + nome + '\'' +
+                '}';
+    }
 }
